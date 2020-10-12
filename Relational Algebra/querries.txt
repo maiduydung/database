@@ -1,0 +1,28 @@
+('S4', 'J6', 80)
+
+
+('S1', 'J1', 75)
+('S3', 'J3', 90)
+('S3', 'J4', 70)
+('S4', 'J2', 80)
+('S4', 'J4', 55)
+
+
+s1	j2	60
+s2	j2	50
+s3	j6	65
+s4	j1	50
+s4	j5	75
+
+
+
+('J2', 'Theory of computation', 'Sato', '2')
+('J6', 'AI', 'Tanaka', '3')
+
+('J3', 'Hardware', 'Kobayashi','6')
+
+SELECT * from course
+CROSS JOIN
+grade_new;
+
+
